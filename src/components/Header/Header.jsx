@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
     // const [open,setOpen]=useState(false)
     return (
-        <div className='bg-yellow-600 font-bold md:flex p-4 md:px-12 text-center justify-between'>
+        <div className='bg-yellow-400 font-bold md:flex p-4 md:px-12 text-center justify-between'>
             <h2 className='text-5xl'>InSearch</h2>
-            <ul className='md:flex text-center text-2xl gap-4'>
+            <ul className='md:flex mt-2 text-center text-2xl gap-4'>
             
             <li>
              <NavLink
@@ -54,7 +54,7 @@ const Header = () => {
                   </NavLink> 
              </li>
             </ul>
-         <button className='bg-white rounded-lg px-3 text-2xl'>Start Applying</button>
+         <button className='bg-violet-500 hover:bg-violet-700 font-bold text-white rounded-lg px-3 text-2xl'>Start Applying</button>
         </div>
     );
 };
