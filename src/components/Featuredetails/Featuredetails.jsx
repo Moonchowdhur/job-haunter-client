@@ -31,7 +31,7 @@ console.log(features)
         <div className='md:w-[30%] my-16 p-4 bg-[#FCC8D1] rounded-md mx-7 '>
             <h2 className='text-2xl my-5 font-bold'>Job Details</h2>
             <hr />
-            <p className='my-5'>{features?.salary}</p>
+            <p className='my-5'>Salary:{features?.salary}</p>
             <p>{features?.name}</p>
             <h2 className='text-2xl mt-8 mb-3 font-bold '>Contact Information</h2><hr />
             <p>{features?.phone}</p>
