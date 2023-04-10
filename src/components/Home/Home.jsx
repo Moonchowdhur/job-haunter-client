@@ -40,7 +40,7 @@ const Home = () => {
         </div>
 {/* Job Category List end section */}
 
-{/* Featured Jobs section */}
+{/* Featured Jobs section---- */}
       <div className='my-28 text-center p-4 md:px-12'>
          <h2 className='text-4xl font-bold'>Featured Jobs</h2>
          <p className='my-4 text-xl'>Let's start Careers here with all the information you need. Its your future</p>
