@@ -23,7 +23,7 @@ const Feature = ({catagory}) => {
                 Salary: {salary}
             </div>
           </div>
-          <Link > <button className='bg-violet-500 font-bold hover:bg-violet-700 text-white rounded-lg my-7 px-3 py-2 '>View Details</button></Link>
+          <Link to={`/details/${id}`} > <button className='bg-violet-500 font-bold hover:bg-violet-700 text-white rounded-lg my-7 px-3 py-2 '>View Details</button></Link>
         </div>
     );
 };
