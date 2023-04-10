@@ -24,13 +24,23 @@ const Blog = () => {
             <div  className=' bg-slate-300 text-cyan-800 my-7 p-7 rounded'>
             <h2 className='text-4xl font-bold my-3'>3.what is useRef?</h2>
             <p className='mt-4 font-medium text-xl'>
-           (a) useRef is a hook function provided by the React library that allows you to create a mutable reference that can be used to persist a value between renders in a functional component.
+           (a) useRef is a hook function provided by the React library that allows to create a mutable reference that can be used to persist a value between renders in a functional component.
             </p>
             <p className='mt-4 font-medium text-xl'>
-            (b)The useRef hook takes an initial value as an argument, and returns a mutable object with a current property. You can read and update the value of current directly, without triggering a re-render of the component.
+            (b)The useRef hook takes an initial value as an argument, and returns a mutable object with a current property. We can read and update the value of current directly, without triggering a re-render of the component.
             </p>
             <p className='mt-4 font-medium text-xl'>
             (b)It is useful for storing and accessing values that need to persist between renders, such as a reference to a DOM node, a timer ID, or any other mutable data that needs to be accessed across multiple renders.
+            </p>
+            </div>
+            {/* 4th question */}
+            <div  className=' bg-slate-300 text-cyan-800 my-7 p-7 rounded'>
+            <h2 className='text-4xl font-bold my-3'>4.what is useMemo?</h2>
+            <p className='mt-4 font-medium text-xl'>
+           (a) useMemo is a hook function provided by the React library that allows to optimize expensive computations by memoizing the result of a function call and only re-computing it if the dependencies change.
+            </p>
+            <p className='mt-4 font-medium text-xl'>
+            (b)The useMemo hook takes a function as its first argument, and an array of dependencies as its second argument. The function is executed during rendering, and its result is memoized, or stored in memory, until one of the dependencies changes. When the dependencies change, the function is re-executed and its result is re-memoized.
             </p>
             </div>
            

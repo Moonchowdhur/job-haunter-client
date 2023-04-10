@@ -5,6 +5,7 @@ import { useLoaderData } from 'react-router-dom';
 import Feature from '../Feature/Feature';
 const Home = () => {
   // const catagories=useLoaderData()
+  
   const [datas,setDatas]=useState([])
   const [catagories,setCatagories]=useState([])
   useEffect(()=>{
