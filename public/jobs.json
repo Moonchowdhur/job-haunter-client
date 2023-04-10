@@ -1,6 +1,6 @@
 [
     {
-      "id": "6432f3019d2a7b42bb10308f",
+      "id": "1732f3019d2a7b42bb10308f",
       "picture": "https://1000logos.net/wp-content/uploads/2021/05/Google-logo-500x281.png",
       "salary": "30450K-54450K" ,
       "name": "Technical Database Engineer",
@@ -17,7 +17,7 @@
       "education":"B.tech degree to complete any reputational university."
     },
     {
-      "id": "6432f3018bf39847124576d5",
+      "id": "2732f3018bf39847124576d5",
       "picture": "https://logowik.com/content/uploads/images/750_netflix.jpg",
       "salary": "28450K-40450K" ,
       "name": "Senior Product Designer",
@@ -34,7 +34,7 @@
       "education":"B.tech,MCA degree to complete any reputational university."
     },
     {
-      "id": "6432f30187cc196ef2c137fe",
+      "id": "3732f30187cc196ef2c137fe",
       "picture": "https://logowik.com/content/uploads/images/tesla.jpg",
       "salary": "35450K-45450K" ,
       "name": "Software Engineer",
@@ -51,7 +51,7 @@
       "education":"Bachelor degree to complete any reputational university."
     },
     {
-      "id": "6432f3018aed0676ab7864fd",
+      "id": "4732f3018aed0676ab7864fd",
       "picture": "https://cionews.co.in/wp-content/uploads/2022/05/Tata-Consultancy-Services-Limited-TCS-Logo-2.jpg",
       "salary": "30450K-35450K" ,
       "name": "Software Tester",
@@ -68,7 +68,7 @@
       "education":"Bachelor degree to complete any reputational university."
     },
     {
-      "id": "6432f301b404b7ba549bcc20",
+      "id": "5732f301b404b7ba549bcc20",
       "picture": "https://www.financialexpress.com/wp-content/uploads/2017/05/wipro.jpg",
       "salary": "45450K-50450K" ,
       "name": "Software Engineer",
@@ -85,7 +85,7 @@
       "education":"M.tech degree to complete any reputational university."
     },
     {
-        "id": "6432f301b404b7ba549bcc20",
+        "id": "6732f301b404b7ba549bcc20",
         "picture": "https://static.vecteezy.com/system/resources/previews/020/336/451/original/infosys-logo-infosys-icon-free-free-vector.jpg",
         "salary": "35450K-45450K" ,
         "name": "Java Devloper",
@@ -102,7 +102,7 @@
         "education":"BSc degree to complete any reputational university."
       },
       {
-        "id": "6432f301b404b7ba549bcc20",
+        "id": "7732f301b404b7ba549bcc20",
         "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fc/IBM_logo_in.jpg",
         "salary": "30450K-35450K" ,
         "name": "Node Devloper",
@@ -119,7 +119,7 @@
         "education":"B.tech degree to complete any reputational university."
       },
       {
-        "id": "6432f301b404b7ba549bcc20",
+        "id": "8732f301b404b7ba549bcc20",
         "picture": "https://1000logos.net/wp-content/uploads/2021/09/Cognizant-Logo.png",
         "salary": 33898,
         "name": "React Devloper",
