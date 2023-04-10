@@ -1,25 +1,25 @@
 [
     {
       "id": "6432e6b188cb232de5338ac9",
-      "picture": "https://images.pexels.com/photos/210990/pexels-photo-210990.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "picture": "../public/Icons/accounts 1.png",
       "name": "Account & Finance",
       "about": "300"
     },
     {
       "id": "6432e6b18efe5a7bc9054a5e",
-      "picture": "https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?auto=compress&cs=tinysrgb&w=600",
+      "picture": "../public/Icons/business 1.png",
       "name": "Creative Design",
       "about": "200"
     },
     {
       "id": "6432e6b1422dca6369b584db",
-      "picture": "https://images.pexels.com/photos/3153199/pexels-photo-3153199.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "picture": "../public/Icons/social-media 1.png",
       "name": "Marketing & Sales",
       "about": "100+"
     },
     {
       "id": "6432e6b13a0ffb25c2ada218",
-      "picture": "https://images.pexels.com/photos/442154/pexels-photo-442154.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "picture": "../public/Icons/chip 1.png",
       "name": "Engineering Job",
       "about": "500"
     }

@@ -1,6 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import img from '../../../public/All Images/P3OLGJ1 copy 1.png'
+import Catagory from '../Catagory/Catagory';
 const Home = () => {
+  const [datas,setDatas]=useState([])
+  useEffect(()=>{
+    fetch("catagory.json")
+    .then(res=>res.json())
+    .then(data=>setDatas(data))
+  },[])
+
+  // console.log(datas)
     return (
         <div className='my-8' >
 
@@ -13,8 +22,18 @@ const Home = () => {
             </div>
             <img src={img} className='md:w-1/2 w-full' alt="" />
           </div>
-        
         {/* end home section */}
+
+        {/* Job Category List section */}
+        <div className='my-28 text-center p-4 md:px-12'>
+            <h2 className='text-4xl font-bold'>Job Category List</h2>
+            <p className='my-4 text-xl'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            <div className='md:flex p-4 md:px-12 justify-around items-center '>
+              {
+                datas.map(data=><Catagory key={data.id} data={data}></Catagory>)
+              }
+            </div>
+        </div>
 
 
         </div>
