@@ -12,6 +12,7 @@ import Blog from './components/Blog/Blog';
 import Statistics from './components/Statistics/Statistics';
 import Error from './components/Error/Error';
 import Featuredetails from './components/Featuredetails/Featuredetails';
+import { customloader } from './components/loader/customloader';
 
 const router = createBrowserRouter([
   {
@@ -22,15 +23,17 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        // loader:()=>fetch("jobs.json"),
+        
       },
       {
         path: "/jobs",
         element: <Jobs></Jobs>,
+        loader:customloader,
       },
       {
         path: "/blog",
         element: <Blog></Blog>,
+
       },
       {
         path: "/statistics",

@@ -5,7 +5,7 @@ import { useLoaderData } from 'react-router-dom';
 import Feature from '../Feature/Feature';
 const Home = () => {
   // const catagories=useLoaderData()
-  
+  const [show,setShow]=useState(false)
   const [datas,setDatas]=useState([])
   const [catagories,setCatagories]=useState([])
   useEffect(()=>{
@@ -53,11 +53,14 @@ const Home = () => {
          <p className='my-4 text-center text-xl'>Let's start Careers here with all the information you need. Its your future</p>
          <div className=' my-5 p-4 grid grid-cols-1 gap-12 md:grid-cols-2 md:px-12'>
             {
-             catagories.slice(0,4).map(catagory=><Feature key={catagory.id} catagory={catagory}></Feature>)
+             catagories.slice(0,show?8:4).map(catagory=><Feature key={catagory.id} catagory={catagory}></Feature>)
             }
          </div>
          <div className='text-center'>
-         <button className='bg-violet-500 text-center font-bold hover:bg-violet-700 text-white rounded-lg my-7 px-3 py-2 text-2xl'>See All Jobs</button>
+          {
+            !show && (<button onClick={()=>setShow(true)} className='bg-violet-500 text-center font-bold hover:bg-violet-700 text-white rounded-lg my-7 px-3 py-2 text-2xl'>See All Jobs</button>)
+          }
+         
          </div>
       </div>
 {/* Featured Jobs end ---- */}

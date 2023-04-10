@@ -4,11 +4,11 @@ import {BiLocationPlus,BiRupee} from "react-icons/bi";
 import {MdSubtitlesOff} from "react-icons/md";
 import {BsFillTelephoneFill} from "react-icons/bs";
 import {AiOutlineMail} from "react-icons/ai";
+import { addToDb } from '../../utility/fakedb';
 
 
 
 const Featuredetails = () => {
-
   const {id} =useParams()
  
   const [features,setFeatures]=useState(null)
@@ -24,8 +24,8 @@ jobdataFunc()
   },[id])
 
 
-  function addToCart(feature){
-   console.log(feature)
+  function addToCart(id){
+    addToDb(id)
   }
 
 
@@ -41,13 +41,13 @@ jobdataFunc()
        </div>
         {/* details section */}
         <div className='md:flex justify-around md:mx-12 p-4'>
-        <div className='md:w-[70%] p-4 rounded-md  my-16 bg-opacity-60  bg-[#FCC8D1]'>
+        <div className='md:w-[70%] w-full p-4 rounded-md  my-16 bg-opacity-60  bg-[#FCC8D1]'>
           <h2 className='text-xl my-5'><span className='font-bold'>Job Description:</span>{features?.description}</h2>
           <p className='text-xl my-5'> <span className='font-bold'>Job Responsibity: </span>{features?.responsibity}</p>
           <p className='text-xl my-5'><span className='font-bold'>Educational Requirements:</span><br/>{features?.education}</p>
           <p className='text-xl my-5'><span className='font-bold my-4'>Experiences:</span><br/>{features?.experiences}</p>
         </div>
-        <div className='md:w-[30%] my-16 p-4 bg-[#FCC8D1] rounded-md mx-7 '>
+        <div className='md:w-[30%]  my-16 p-4 bg-[#FCC8D1] rounded-md mx-7 '>
             <h2 className='text-2xl my-5 font-bold'>Job Details</h2>
             <hr />
            <div className='flex my-5 items-center'>
@@ -86,7 +86,7 @@ jobdataFunc()
            <p className=''><span className='font-bold text-xl'>Address:
            </span> {features?.address}</p>
           </div>
-          <button onClick={()=>addToCart(features)} className='bg-violet-500 text-center font-bold hover:bg-violet-700 text-white rounded-lg my-7 px-3 w-full py-2 text-2xl'>Apply Now</button>
+          <button onClick={()=>addToCart(id)} className='bg-violet-500 text-center font-bold hover:bg-violet-700 text-white rounded-lg my-7 px-3 w-full py-2 text-2xl'>Apply Now</button>
         </div>
         </div>
         </div>
