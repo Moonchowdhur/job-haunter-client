@@ -23,11 +23,24 @@ let jobdataFunc=async()=>{
 jobdataFunc()
   },[id])
 
-console.log(features)
+
+  function addToCart(feature){
+   console.log(feature)
+  }
 
 
     return (
-        <div className='md:flex justify-around md:mx-12 mt- p-4'>
+       <div>
+      <div className="hero h-[40vh] mt-8" style={{ backgroundImage: `url("https://media.istockphoto.com/id/1401158734/photo/c-sharp-programming-language-source-code-example-on-monitor-and-bokeh-background-c-source.jpg?s=1024x1024&w=is&k=20&c=mDNdFVDRDoY2DBt3S5YWl7cU3rJLB_x0KQ_o-dYHnzA=")` }}>
+      <div className="hero-overlay bg-opacity-60"></div>
+       <div className="hero-content text-center text-neutral-content">
+       <div className="max-w-md">
+       <h1 className="mb-5 text-5xl font-bold">Job Details</h1>
+       </div>
+       </div>
+       </div>
+        {/* details section */}
+        <div className='md:flex justify-around md:mx-12 p-4'>
         <div className='md:w-[70%] p-4 rounded-md  my-16 bg-opacity-60  bg-[#FCC8D1]'>
           <h2 className='text-xl my-5'><span className='font-bold'>Job Description:</span>{features?.description}</h2>
           <p className='text-xl my-5'> <span className='font-bold'>Job Responsibity: </span>{features?.responsibity}</p>
@@ -73,9 +86,9 @@ console.log(features)
            <p className=''><span className='font-bold text-xl'>Address:
            </span> {features?.address}</p>
           </div>
-          <button className='bg-violet-500 text-center font-bold hover:bg-violet-700 text-white rounded-lg my-7 px-3 w-full py-2 text-2xl'>Apply Now</button>
+          <button onClick={()=>addToCart(features)} className='bg-violet-500 text-center font-bold hover:bg-violet-700 text-white rounded-lg my-7 px-3 w-full py-2 text-2xl'>Apply Now</button>
         </div>
-        
+        </div>
         </div>
     );
 };
