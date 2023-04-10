@@ -31,7 +31,7 @@ jobdataFunc()
 
     return (
        <div>
-      <div className="hero h-[40vh] mt-8" style={{ backgroundImage: `url("https://media.istockphoto.com/id/1401158734/photo/c-sharp-programming-language-source-code-example-on-monitor-and-bokeh-background-c-source.jpg?s=1024x1024&w=is&k=20&c=mDNdFVDRDoY2DBt3S5YWl7cU3rJLB_x0KQ_o-dYHnzA=")` }}>
+      <div className="hero h-[40vh]" style={{ backgroundImage: `url("https://media.istockphoto.com/id/1401158734/photo/c-sharp-programming-language-source-code-example-on-monitor-and-bokeh-background-c-source.jpg?s=1024x1024&w=is&k=20&c=mDNdFVDRDoY2DBt3S5YWl7cU3rJLB_x0KQ_o-dYHnzA=")` }}>
       <div className="hero-overlay bg-opacity-60"></div>
        <div className="hero-content text-center text-neutral-content">
        <div className="max-w-md">
