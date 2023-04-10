@@ -41,13 +41,16 @@ const Home = () => {
 {/* Job Category List end section */}
 
 {/* Featured Jobs section---- */}
-      <div className='my-28 text-center p-4 md:px-12'>
-         <h2 className='text-4xl font-bold'>Featured Jobs</h2>
-         <p className='my-4 text-xl'>Let's start Careers here with all the information you need. Its your future</p>
-         <div className='p-4 md:px-12'>
+      <div className='my-28  p-4 md:px-12'>
+         <h2 className='text-4xl text-center font-bold'>Featured Jobs</h2>
+         <p className='my-4 text-center text-xl'>Let's start Careers here with all the information you need. Its your future</p>
+         <div className=' my-5 p-4 grid grid-cols-1 gap-12 md:grid-cols-2 md:px-12'>
             {
-              catagories.map(catagory=><Feature key={catagory.id} catagory={catagory}></Feature>)
+              catagories.slice(0,4).map(catagory=><Feature key={catagory.id} catagory={catagory}></Feature>)
             }
+         </div>
+         <div className='text-center'>
+         <button className='bg-violet-500 text-center font-bold hover:bg-violet-700 text-white rounded-lg my-7 px-3 py-2 text-2xl'>See All Jobs</button>
          </div>
       </div>
 
