@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className='bg-yellow-400 font-bold md:flex p-4 md:px-12 text-center justify-between'>
             <h2 className='text-5xl'>InSearch</h2>
-            <ul className='md:flex mt-2 text-center text-2xl gap-4'>
+            <ul className='md:flex mt-2 text-center text-2xl gap-6'>
             
             <li>
              <NavLink
