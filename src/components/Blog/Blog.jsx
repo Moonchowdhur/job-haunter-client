@@ -2,8 +2,8 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div>
-            b
+        <div className='bg-violet-200 mt-6 p-4 md:px-12'>
+            
         </div>
     );
 };

@@ -1,7 +1,8 @@
 import React from 'react';
 import {BiLocationPlus,BiRupee } from "react-icons/bi";
+import { Link } from 'react-router-dom';
 const Feature = ({catagory}) => {
-    console.log(catagory)
+    // console.log(catagory)
     const {id,company,name,location,salary,site,time,picture}=catagory
     return (
         <div className=' shadow-xl border border-violet-500 rounded-lg p-7'>
@@ -22,7 +23,7 @@ const Feature = ({catagory}) => {
                 Salary: {salary}
             </div>
           </div>
-          <button className='bg-violet-500 font-bold hover:bg-violet-700 text-white rounded-lg my-7 px-3 py-2 '>View Details</button>
+          <Link > <button className='bg-violet-500 font-bold hover:bg-violet-700 text-white rounded-lg my-7 px-3 py-2 '>View Details</button></Link>
         </div>
     );
 };

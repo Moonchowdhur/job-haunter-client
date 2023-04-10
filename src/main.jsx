@@ -10,12 +10,14 @@ import Home from './components/Home/Home';
 import Jobs from './components/Jobs/Jobs';
 import Blog from './components/Blog/Blog';
 import Statistics from './components/Statistics/Statistics';
+import Error from './components/Error/Error';
+// import Featuredetails from './components/Featuredetails/Featuredetails';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-  
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",
@@ -34,6 +36,11 @@ const router = createBrowserRouter([
         path: "/statistics",
         element: <Statistics></Statistics>,
       },
+      // {
+      //   path: "/details/:id",
+      //   element: <Featuredetails></Featuredetails>,
+        
+      // },
 
     ],
   },
