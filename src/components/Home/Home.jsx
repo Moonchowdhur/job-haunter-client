@@ -22,7 +22,7 @@ const Home = () => {
 
 
     return (
-        <div className='my-8' >
+        <div className='md:my-8 my-28' >
 
         {/* first home section */}
           <div className='md:flex bg-[#FEF2F4]  p-4 md:px-12 justify-between items-center'>
@@ -31,7 +31,7 @@ const Home = () => {
               <p className='my-7 text-xl font-medium'>Explore thousands of job opportunities with all the<br/> information you need. Its your future. Come find it. Manage all<br/> your job application from start to finish.</p>
               <button className='bg-violet-500 font-bold hover:bg-violet-700 text-white rounded-lg my-4 px-3 py-2 text-2xl'>Get Started</button>
             </div>
-            <img src={img} className='md:w-1/2 w-full' alt="" />
+            <img src={img} className='md:w-1/2 w-full ' alt="" />
           </div>
         {/* end home section */}
 

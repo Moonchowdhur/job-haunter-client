@@ -41,7 +41,7 @@ const Statistics = () => {
   ]
 
     return (
-        <div className='mt-20 w-[80%] h-[400px] mx-auto'>
+        <div className='md:mt-20 mt-32 w-[80%] h-[400px] mx-auto'>
         <ResponsiveContainer width="100%" height="100%">
          <AreaChart
           width={1000}

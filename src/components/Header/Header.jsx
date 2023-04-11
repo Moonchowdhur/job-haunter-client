@@ -1,12 +1,26 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-
+import { FaHamburger } from "react-icons/fa";
+import { ImCross } from "react-icons/im";
 const Header = () => {
-    // const [open,setOpen]=useState(false)
+    const [open,setOpen]=useState(false)
+
     return (
+      <>
+   
         <div className='bg-yellow-400 font-bold md:flex p-4 md:px-12 text-center justify-between'>
             <h2 className='text-5xl'>InSearch</h2>
-            <ul className='md:flex mt-2 text-center text-2xl gap-6'>
+             {/* start */}
+             <div className='md:hidden' onClick={()=>setOpen(!open)}>
+            <span>
+           {
+          open? <ImCross className='text-4xl'/>: <FaHamburger className='text-4xl'/>
+           }
+        </span>
+       
+          </div>
+         {/* end */}
+            <ul className={`md:flex mt-2 bg-violet-200 md:bg-transparent text-center text-2xl gap-6 md:static absolute ${open? "top-32": "-top-40"} `}>
             
             <li>
              <NavLink
@@ -56,6 +70,7 @@ const Header = () => {
             </ul>
          <button className='bg-violet-500 hover:bg-violet-700 font-bold text-white rounded-lg px-3 text-2xl'>Start Applying</button>
         </div>
+        </>
     );
 };
 

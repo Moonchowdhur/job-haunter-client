@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className='mt-6 p-4 md:px-12'>
+        <div className='md:mt-6 mt-20 p-4 md:px-12'>
             <div className=' bg-slate-300 text-cyan-800 my-7 p-7 rounded'>
             <h2 className='text-4xl font-bold my-3'>1.Why should we use Context API?</h2>
             <p className='mt-4 font-medium text-xl'>
