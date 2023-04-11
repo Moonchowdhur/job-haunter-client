@@ -7,9 +7,9 @@ const Jobdetails = ({data}) => {
         <>
       
         <div>
-          <div className='md:px-20 items-center border shadow-lg my-8 p-4 gap-16 flex' >
+          <div className='md:px-20 items-center border shadow-lg my-8 p-4 gap-16 md:flex' >
            <img src={picture} className='w-36 h-32' alt="" />
-           <div className='flex items-center gap-60'>  
+           <div className='md:flex items-center gap-60'>  
            <div>
            <h1 className='font-bold text-2xl my-3'>{name}</h1>
            <h2 className='font-medium py-4 text-xl'>{company}</h2>

@@ -16,7 +16,7 @@ if(stored){
        console.log(saverCart)
     }
 }
-// console.log(saverCart)
+
 return saverCart
 }
 

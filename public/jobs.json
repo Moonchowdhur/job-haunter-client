@@ -2,7 +2,7 @@
     {
       "id": "1732f3019d2a7b42bb10308f",
       "picture": "https://1000logos.net/wp-content/uploads/2021/05/Google-logo-500x281.png",
-      "salary": "30450K-54450K" ,
+      "salary": "100K-150K" ,
       "name": "Technical Database Engineer",
       "company": "Google LLC",
       "email": "google@gmail.com",
@@ -19,7 +19,7 @@
     {
       "id": "2732f3018bf39847124576d5",
       "picture": "https://logowik.com/content/uploads/images/750_netflix.jpg",
-      "salary": "28450K-40450K" ,
+      "salary": "80K-150K" ,
       "name": "Senior Product Designer",
       "company": "Netflix",
       "email": "netflix@gmail.com",
@@ -36,7 +36,7 @@
     {
       "id": "3732f30187cc196ef2c137fe",
       "picture": "https://logowik.com/content/uploads/images/tesla.jpg",
-      "salary": "35450K-45450K" ,
+      "salary": "100K-200K" ,
       "name": "Software Engineer",
       "company": "Tesla",
       "email": "tesla@gmail.com",
@@ -53,7 +53,7 @@
     {
       "id": "4732f3018aed0676ab7864fd",
       "picture": "https://cionews.co.in/wp-content/uploads/2022/05/Tata-Consultancy-Services-Limited-TCS-Logo-2.jpg",
-      "salary": "30450K-35450K" ,
+      "salary": "120K-150K" ,
       "name": "Software Tester",
       "company": "Tata Consultancy Services",
       "email": "tata@gmail.com",
@@ -70,7 +70,7 @@
     {
       "id": "5732f301b404b7ba549bcc20",
       "picture": "https://www.financialexpress.com/wp-content/uploads/2017/05/wipro.jpg",
-      "salary": "45450K-50450K" ,
+      "salary": "80K-120K" ,
       "name": "Software Engineer",
       "company": "Wipro",
       "email": "wipro@gmail.com",
@@ -87,7 +87,7 @@
     {
         "id": "6732f301b404b7ba549bcc20",
         "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/1280px-Infosys_logo.svg.png",
-        "salary": "35450K-45450K" ,
+        "salary": "100K-120K" ,
         "name": "Java Devloper",
         "company": "Infosys",
         "email": "infosys@gmail.com",
@@ -104,7 +104,7 @@
       {
         "id": "7732f301b404b7ba549bcc20",
         "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fc/IBM_logo_in.jpg",
-        "salary": "30450K-35450K" ,
+        "salary": "90K-130K" ,
         "name": "Node Devloper",
         "company": "IBM",
         "email": "ibm@gmail.com",
@@ -121,7 +121,7 @@
       {
         "id": "8732f301b404b7ba549bcc20",
         "picture": "https://1000logos.net/wp-content/uploads/2021/09/Cognizant-Logo.png",
-        "salary": 33898,
+        "salary": "100K-130K",
         "name": "React Devloper",
         "company": "Cognizant",
         "email": "cognizant@gmail.com",

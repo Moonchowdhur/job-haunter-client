@@ -22,9 +22,12 @@ const Jobs = () => {
          <button className='bg-violet-500 font-bold h-12  hover:bg-violet-700 text-white rounded-lg  px-3 py-3 text-xl'>Remote</button> 
          <button className='bg-violet-500 font-bold h-12  hover:bg-violet-700 text-white rounded-lg  px-3 py-3 text-xl'>OnSite</button> 
         </div>
-           {
+        <div className='md:mx-14 p-4'>
+        {
             datas.map(data=><Jobdetails key={data.id} data={data}></Jobdetails>)
-           }
+         }
+        </div>
+          
         </div>
     );
 };
