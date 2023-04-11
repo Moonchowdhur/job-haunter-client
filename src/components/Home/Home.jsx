@@ -40,7 +40,7 @@ const Home = () => {
         {/* Job Category List section */}
         <div className='my-28 text-center p-4 md:px-12'>
             <h2 className='text-4xl font-bold'>Job Category List</h2>
-            <p className='my-4 text-xl'>Education is the most powerful weapon which you can use to change the world. Its your future</p>
+            <p className='my-4 text-xl'>Education is the most powerful weapon which you can use to change the world.</p>
             <div className='md:flex p-4 md:px-12 justify-around items-center '>
               {
                 datas.map(data=><Catagory key={data.id} data={data}></Catagory>)
@@ -52,7 +52,7 @@ const Home = () => {
 {/* Featured Jobs section---- */}
       <div className='my-28  p-4 md:px-12'>
          <h2 className='text-4xl text-center font-bold'>Featured Jobs</h2>
-         <p className='my-4 text-center text-xl'>Education is the most powerful weapon which you can use to change the world. Its your future</p>
+         <p className='my-4 text-center text-xl'>Education is the most powerful weapon which you can use to change the world. </p>
          <div className=' my-5 p-4 grid grid-cols-1 gap-12 md:grid-cols-2 md:px-12'>
             {
              catagories.slice(0,show?8:4).map(catagory=><Feature key={catagory.id} catagory={catagory}></Feature>)
