@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Jobdetails from '../Jobdetails/Jobdetails';
 
 const Jobs = () => {
     const datas=useLoaderData()
+
+    // const [ ]=useState([])
+    // const existingproduct=datas.filter(data=>data.)
  
     return (
-        <div>
+       <div>
        <div className="hero h-[40vh]" style={{ backgroundImage: `url("https://media.istockphoto.com/id/1356364268/photo/close-up-focus-on-persons-hands-typing-on-the-desktop-computer-keyboard-screens-show-coding.jpg?s=1024x1024&w=is&k=20&c=g9E8s_x8dL5e4oTrOuvgcmX8RhnJ6bo21quMcFVpa6g=")` }}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">

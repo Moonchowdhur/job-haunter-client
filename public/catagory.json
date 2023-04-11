@@ -1,25 +1,25 @@
 [
     {
       "id": "1432e6b188cb232de5338ac9",
-      "picture": "../public/Icons/accounts 1.png",
+      "picture": "https://i.ibb.co/LdrGQVF/accounts-1.png",
       "name": "Account & Finance",
       "about": "300"
     },
     {
       "id": "2432e6b18efe5a7bc9054a5e",
-      "picture": "../public/Icons/business 1.png",
+      "picture": "https://i.ibb.co/D9zdL63/business-1.png",
       "name": "Creative Design",
       "about": "200"
     },
     {
       "id": "3432e6b1422dca6369b584db",
-      "picture": "../public/Icons/social-media 1.png",
+      "picture": "https://i.ibb.co/k0qL0y3/social-media-1.png",
       "name": "Marketing & Sales",
       "about": "100+"
     },
     {
       "id": "5432e6b13a0ffb25c2ada218",
-      "picture": "../public/Icons/chip 1.png",
+      "picture": "https://i.ibb.co/hmFKPVX/chip-1.png",
       "name": "Engineering Job",
       "about": "500"
     }

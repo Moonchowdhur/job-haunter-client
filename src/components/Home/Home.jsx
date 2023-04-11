@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import img from '../../../public/All Images/P3OLGJ1 copy 1.png'
 import Catagory from '../Catagory/Catagory';
-import { useLoaderData } from 'react-router-dom';
+
 import Feature from '../Feature/Feature';
 const Home = () => {
-  // const catagories=useLoaderData()
+
   const [show,setShow]=useState(false)
   const [datas,setDatas]=useState([])
   const [catagories,setCatagories]=useState([])
