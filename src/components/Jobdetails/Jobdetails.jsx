@@ -1,8 +1,9 @@
 import React from 'react';
 import {BiLocationPlus,BiRupee } from "react-icons/bi";
+import { Link } from 'react-router-dom';
 const Jobdetails = ({data}) => {
     console.log(data)
-    const {picture,company,name,salary,site,time,location}=data
+    const {picture,company,name,salary,site,time,location,id}=data
     return (
         <>
       
@@ -28,7 +29,9 @@ const Jobdetails = ({data}) => {
             </div>
           </div>
           </div>
-          <button className='bg-violet-500 font-bold h-12  hover:bg-violet-700 text-white rounded-lg  px-3 py-2 '>View Details</button></div>
+          <Link to={`/details/${id}`} >
+          <button className='bg-violet-500 font-bold h-12  hover:bg-violet-700 text-white rounded-lg  px-3 py-2 '>View Details</button></Link>
+          </div>
           </div>  
         </div>
         </>

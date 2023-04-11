@@ -5,8 +5,12 @@ import Jobdetails from '../Jobdetails/Jobdetails';
 const Jobs = () => {
     const datas=useLoaderData()
 
-    // const [ ]=useState([])
-    // const existingproduct=datas.filter(data=>data.)
+    const [jobs,setJobs ]=useState(datas)
+    
+    const filterHandler=(site)=>{
+      const data=datas.filter(job=>job.site==site)
+      setJobs(data)
+    }
  
     return (
        <div>
@@ -19,12 +23,12 @@ const Jobs = () => {
   </div>
        </div>
         <div className='md:px-20 items-center justify-end  my-8 p-4 gap-16 flex'>
-         <button className='bg-violet-500 font-bold h-12  hover:bg-violet-700 text-white rounded-lg  px-3 py-3 text-xl'>Remote</button> 
-         <button className='bg-violet-500 font-bold h-12  hover:bg-violet-700 text-white rounded-lg  px-3 py-3 text-xl'>OnSite</button> 
+         <button onClick={()=>filterHandler("Remote")} className='bg-violet-500 font-bold h-12  hover:bg-violet-700 text-white rounded-lg  px-3 py-3 text-xl'>Remote</button> 
+         <button onClick={()=>filterHandler("Onsite")} className='bg-violet-500 font-bold h-12  hover:bg-violet-700 text-white rounded-lg  px-3 py-3 text-xl'>OnSite</button> 
         </div>
         <div className='md:mx-14 p-4'>
         {
-            datas.map(data=><Jobdetails key={data.id} data={data}></Jobdetails>)
+            jobs.map(data=><Jobdetails key={data.id} data={data}></Jobdetails>)
          }
         </div>
           

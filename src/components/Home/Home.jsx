@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import img from '../../../public/All Images/P3OLGJ1 copy 1.png'
+import img from '../../../public/All Images/women.png'
 import Catagory from '../Catagory/Catagory';
 
 import Feature from '../Feature/Feature';
@@ -31,7 +31,7 @@ const Home = () => {
               <p className='my-7 text-xl font-medium'>Explore thousands of job opportunities with all the<br/> information you need. Its your future. Come find it. Manage all<br/> your job application from start to finish.</p>
               <button className='bg-violet-500 font-bold hover:bg-violet-700 text-white rounded-lg my-4 px-3 py-2 text-2xl'>Get Started</button>
             </div>
-            <img src={img} className='md:w-1/2 w-full ' alt="" />
+            <img src={img} className='md:w-1/2 w-full h-2/3' alt="" />
           </div>
         {/* end home section */}
 
