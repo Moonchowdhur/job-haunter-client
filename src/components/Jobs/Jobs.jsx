@@ -5,7 +5,7 @@ import Jobdetails from '../Jobdetails/Jobdetails';
 const Jobs = () => {
     const datas=useLoaderData()
 
-    const [jobs,setJobs ]=useState(datas)
+    const [jobs,setJobs]=useState(datas)
     
     const filterHandler=(site)=>{
       const data=datas.filter(job=>job.site==site)

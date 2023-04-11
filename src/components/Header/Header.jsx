@@ -10,7 +10,7 @@ const Header = () => {
    
         <div className='bg-yellow-400 font-bold md:flex p-4 md:px-12 text-center justify-between'>
             <h2 className='text-5xl'>InSearch</h2>
-             {/* start */}
+             {/* hambar start---- */}
              <div className='md:hidden' onClick={()=>setOpen(!open)}>
             <span>
            {
@@ -19,7 +19,7 @@ const Header = () => {
         </span>
        
           </div>
-         {/* end */}
+         {/* hambar end---- */}
             <ul className={`md:flex mt-2 bg-violet-200 md:bg-transparent text-center text-2xl gap-6 md:static absolute ${open? "top-32": "-top-40"} `}>
             
             <li>
