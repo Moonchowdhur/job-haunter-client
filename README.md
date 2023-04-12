@@ -1,7 +1,8 @@
 
+# live Link:
 * live link: https://super-moonbeam-97ce6a.netlify.app/
 
-
+# Project Details:
 * My Website name is InSearch.This website is for applying in different type of jobs.
 * There are Navigation section section containing Home, Stastics,Applied Jobs and Blog
 * In home section, there are a header section,Job Category List and Featured Jobs list
