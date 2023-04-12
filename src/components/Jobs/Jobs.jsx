@@ -23,8 +23,8 @@ const Jobs = () => {
   </div>
        </div>
         <div className='md:px-20 items-center justify-end  my-8 p-4 gap-16 flex'>
-         <button onClick={()=>filterHandler("Remote")} className='bg-violet-500 font-bold h-12  hover:bg-violet-700 text-white rounded-lg  px-3 py-3 text-xl'>Show Remote</button> 
-         <button onClick={()=>filterHandler("Onsite")} className='bg-violet-500 font-bold h-12  hover:bg-violet-700 text-white rounded-lg  px-3 py-3 text-xl'>Show  OnSite</button> 
+         <button onClick={()=>filterHandler("Remote")} className='bg-violet-500 font-bold h-12  hover:bg-violet-700 text-white rounded-lg  px-3 py-3 text-xl'>Remote</button> 
+         <button onClick={()=>filterHandler("Onsite")} className='bg-violet-500 font-bold h-12  hover:bg-violet-700 text-white rounded-lg  px-3 py-3 text-xl'>On-Site</button> 
         </div>
         <div className='md:mx-14 p-4'>
         {
